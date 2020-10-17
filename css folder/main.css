@@ -1,32 +1,23 @@
-.pagination{
-    display: inline-block;
-border: 1px solid #0076ff;
-margin: 0px;
-padding: 0px;
-border-radius: 10px;
-}
-.pagination li{
-    display: inline;
+body{
+    background: purple url(/images/bg-desktop.svg) center;
+    
     
 }
-.pagination a{
-    text-decoration: none;
-    color: black;
-    padding:7px 14px ;
-    float: left;
-    border-right: 1px solid #0076ff;
-
+h1,h2,p{
+    color: white;
 }
-.container{
-    text-align: center;
+section{
+    display: flex;
+    flex-direction: row;
+    
 }
-.pagination li :last-child > a{
-    border: none;
+div{
+    display: flex;
+    flex-direction: row;
+    
 }
-.pagination a{
-    transition-property: 1s;
-}
-.pagination a:hover{
-    background-color: aquamarine;
-    color: bisque;
+i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: lightgrey;
 }
