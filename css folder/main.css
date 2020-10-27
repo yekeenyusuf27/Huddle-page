@@ -1,8 +1,13 @@
 body{
+    
     background: url(/images/bg-desktop.svg) indigo center;
     height: 100%;
     color: white;
-    vertical-align: middle;
+    vertical-align: top;
+    
+}
+section{
+    display: flex;
 }
 button{
     margin-top: 10px;
@@ -12,16 +17,15 @@ button{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 5px;
-    width: 70px;
+    width: 100px;
     outline: none;
     border: none;
+    margin-left: 15px;
+    text-align: center;
 }
 
 .logo{
     margin-bottom: 30px;
-}
-div{
- float: right;   
 }
 i{
     border-radius: 50%;
